@@ -20,7 +20,7 @@ const RateLimit = require("async-rate-limit");
 // Pretending to have an API with a limit of 10 requests per second
 const limiter = new RateLimit({limit: 10, timespan: 1000});
 
-const sleep = () => new Promise(resolve => setTimeout(resolve, ms));
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 for(let x = 0; x < 100; x++){    
     limiter.perform(async () => {

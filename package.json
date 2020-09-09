@@ -1,6 +1,6 @@
 {
   "name": "async-rate-limit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to help limit rate-limit asynchronous tasks like api calls.",
   "main": "index.js",
   "module": "index.es.js",
