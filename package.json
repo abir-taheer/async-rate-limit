@@ -5,7 +5,6 @@
   "keywords": ["rate", "limit", "async", "api"],
   "author": "Abir Taheer",
   "repository": "https://github.com/abir-taheer/async-rate-limit",
-  "types" : "types.d.ts",
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",

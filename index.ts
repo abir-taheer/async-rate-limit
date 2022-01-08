@@ -9,6 +9,7 @@ class RateLimit {
   private readonly limit: number;
   private readonly timespan: number;
   private queue: any;
+  static default: any;
 
   constructor({ limit, timespan }: Props) {
     this.limit = limit || 5;
@@ -35,4 +36,5 @@ class RateLimit {
   }
 }
 
-export default RateLimit;
+RateLimit.default = RateLimit;
+export = RateLimit;
