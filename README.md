@@ -1,6 +1,6 @@
 # async-rate-limit
 
-Queue setup for limiting things like api calls and other asynchronous tasks like api calls that may take unpredictable amounts of time. 
+Queue setup for limiting things like api calls and other asynchronous tasks like api calls that may take unpredictable amounts of time. Works with TypeScript.
 
 ## Usage: 
 
