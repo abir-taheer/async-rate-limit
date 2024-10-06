@@ -22,7 +22,7 @@ class RateLimit {
     this.perform = this.perform.bind(this);
   }
 
-  perform(action: Function): Promise<any> {
+  perform<ReturnType = any>(action: () => ReturnType): Promise<ReturnType> {
     return new Promise((resolve, reject) => {
       this.queue.push(async () => {
         try {
